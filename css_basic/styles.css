@@ -1,43 +1,38 @@
-/* Body is a flex container (column) */
+/* flexbox layout */
 body {
   display: flex;
   flex-direction: column;
-  margin: 0;
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Main is a flex container (row) */
 main {
   display: flex;
   flex-direction: row;
   flex: auto;
-  /* background-color: green; */
 }
 
-/* Article: 2/3 of space */
+
 article {
   flex: 2;
-  /* overflow-y: auto; */
-  /* padding: 1rem; */
-  background-color: #f9f9f9;
-  */
-  /* flex-direction: calc(2/3); */
+  overflow-y: auto;
 }
 
-/* Aside: 1/3 of space */
 aside {
   flex: 1;
   overflow-y: auto;
-  padding: 10px;
-  background-color: #e9e9e9;
-  /* flex-direction: calc(1/3); */
-  margin-left: auto;
+  border-left: 2px solid #ccc;
+  padding: 20px;
 }
 
-/* Header and footer just sit at top/bottom */
-header,
+header {
+  background-color: rgb(127, 206, 242);
+  color: azure;
+  padding: 15px;
+}
+
+
 footer {
-  padding: 1rem;
-  background-color: rgb(67, 161, 161);
-  */
+  background-color: rgb(127, 206, 242);
+  text-align: center;
+  padding: 10px;
 }
