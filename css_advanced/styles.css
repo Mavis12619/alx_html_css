@@ -4,6 +4,8 @@ header {
     background-position: center;
     height: 100vh;
     position: relative;
+
+
 }
 
 
@@ -11,6 +13,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 nav img {
@@ -33,9 +36,10 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 220px;
+    margin-top: 170px;
     justify-content: flex-end;
     align-content: flex-end;
+
 }
 
 .div1 {
@@ -61,12 +65,155 @@ h1 {
 
 .images {
     display: flex;
-    padding-top: 150px;
-    ;
+    align-items: center;
+    padding-top: 250px;
+    color: white;
+    transform: scale(0.5);
+    gap: 170px;
 
 
 }
 
+.square {
+    border-radius: 50%;
+}
+
 .h2+ {
     align-items: center;
+}
+
+.maame {
+    display: flex;
+    flex-direction: column;
+}
+
+.papa {
+    align-self: center;
+}
+
+.mavis {
+    display: flex;
+    background-color: rgb(147, 70, 219);
+    padding: 100;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    color: white;
+
+}
+
+.eben {
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap; */
+}
+
+.profile-container {
+    display: flex;
+    /* border: solid #123456; */
+    margin: 5px;
+}
+
+.h2-title {
+    text-align: center;
+}
+
+.becca {
+    display: flex;
+    flex-direction: column;
+    /* border: solid; */
+    margin: 5px;
+}
+
+.tin {
+    font-size: smaller;
+}
+
+#img {
+    align-self: self-end;
+    transform: scale(0.5);
+    margin-left: 90px;
+
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+h3,
+p {
+    margin-left: 40px;
+    margin-top: -2px;
+}
+
+.weather {
+    margin-top: -10px;
+    font-size: smaller;
+}
+
+.john {
+    font-size: smaller;
+}
+
+.photo {
+    width: 120px;
+    height: 70px;
+}
+
+.stars {
+    display: flex;
+    padding: 0px;
+    height: 10px;
+}
+
+.smile {
+    text-align: center;
+    color: white;
+
+
+}
+
+.smiles {
+    background-color: black;
+    display: flex;
+    color: white;
+    font-size: smaller;
+    gap: 20px;
+    text-align: center;
+}
+
+.smiley {
+    font-size: x-small;
+    text-align: left;
+}
+
+.paragraph {}
+
+.pchild {
+    display: flex;
+    gap: 100px;
+    padding: 30px;
+    align-items: center;
+}
+
+.faq {
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    position: relative;
+    top: 10px;
+
+}
+
+.media {
+    color: white;
+    text-align: right;
 }
