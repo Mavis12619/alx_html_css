@@ -1,0 +1,22 @@
+footer {
+    background-color: #001f3f;
+    color: white;
+    font-size: smaller;
+    height: 200px;
+    display: flex;
+
+}
+
+img {
+    display: flex;
+    width: 150px;
+    height: auto;
+
+}
+
+p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
