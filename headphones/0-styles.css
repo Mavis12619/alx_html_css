@@ -10,9 +10,15 @@
     gap: 1rem;
 }
 
+
 a {
     color: white;
     text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #ff6565;
 }
 
 
@@ -73,9 +79,13 @@ button {
     cursor: pointer;
     color: white;
     margin-top: 30px;
-
-
 }
+
+button:hover,
+button:active {
+    opacity: 0.9;
+}
+
 
 .text {
     padding: 10px;
@@ -110,4 +120,50 @@ h1 {
 
 #tag4 {
     text-align: center;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    /* WHAT WE DO SECTION */
+    .part-2 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    /* OUR RESULTS SECTION */
+    .results {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    /* CONTACT US SECTION */
+    .contact {
+        width: 90%;
+        text-align: center;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    /* BUTTONS */
+    button:hover,
+    button:active {
+        opacity: 0.9;
+        background-color: #FF6565;
+        /* hover color */
+    }
 }
